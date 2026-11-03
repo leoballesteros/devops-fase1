@@ -1,0 +1,23 @@
+{
+    "name": "devops-fase1",
+    "version": "1.0.0",
+    "description": "API simples de filmes com Express e dados em memória.",
+    "main": "src/app.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node src/app.js",
+        "test": "node --test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leoballesteros/devops-fase1.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.3.0"
+    },
+    "devDependencies": {
+        "supertest": "^7.3.1"
+    }
+}
